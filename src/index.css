@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Mono:ital,wght@0,200..700;1,200..700&family=DM+Sans:opsz,wght@9..40,100..1000&family=Oregano:ital@0;1&display=swap');
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.theme-personal {
+  /* Off-white theme */
+  color-scheme: light;
+  color: #1f2937; /* gray-800 */
+  background-color: #f9fafb; /* gray-50 */
+}
+
+.font-calligraphy {
+  font-family: 'Oregano', cursive;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.05em;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.button-coding {
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.button-coding:hover {
+  border-color: #ffffff;
+}
+.button-coding:focus,
+.button-coding:focus-visible {
+  outline: 4px auto #ffffff;
+}
+
+.button-personal {
+  border: 1px solid transparent;
+  padding: 0.5em 1.1em;
+  border-radius: 4px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: 'Oregano', cursive;
+  letter-spacing: 0.05em;
+  font-style: normal;
+  font-size: 1.25em;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.button-personal:hover {
+  border-color: #242424;
+  outline: 4px auto #242424;
+}
+.button-personal:focus,
+.button-personal:focus-visible {
+  outline: 4px auto #242424;
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.transition {
+  transition-property: background-color, color, border-color, text-shadow,
+    box-shadow;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.theme-toggle-icon {
+  display: inline-block;
+  animation: spin 0.5s ease-in-out;
+}
+
+/* Element appearance transitions */
+.theme-fade-enter {
+  opacity: 0;
+}
+
+.theme-fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.theme-fade-exit {
+  opacity: 1;
+}
+
+.theme-fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}

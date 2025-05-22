@@ -29,7 +29,7 @@ const ThemedContent: React.FC = () => {
         </section>
 
         {/* Projects section only shown in coding mode */}
-        <section id="Projects" className="snap-start h-screen w-full">
+        <section id="Projects" className="snap-start w-full">
           {isCodingMode() ? <Projects /> : <Gallery />}
         </section>
       </ScrollProvider>

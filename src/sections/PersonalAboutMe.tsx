@@ -1,32 +1,24 @@
 import React from "react";
-import dogicon from "../assets/download.png";
 
 const PersonalAboutMe: React.FC = () => {
   return (
     <div className="bg-linear-to-t from-neutral-50 to-sky-100 w-full h-screen">
       <br />
       <br />
-      <div className="p-20">
-        <h2 className="font-calligraphy text-6xl font-bold">About Me</h2>
-        <div className="flex items-center gap-4">
-          <p className="font-sans text-lg text-left mt-20">
+      <div className="p-10">
+        <h2 className="text-6xl font-bold font-calligraphy ">About Me</h2>
+        <div className="flex gap-4">
+        <img src="/pfp.png" className="hidden w-100 h-90 rounded-full m-20 lg:block"></img>
+          <p className="font-sans text-lg text-left mt-20 mx-10">
             hi, i'm aaron! <br />
-            <br /> i'm a third-year student studying a double degree in software
-            engineering and biotechnology at unsw. i've worked on diverse
-            projects, including cutting-edge research on self-assembling
-            vesicles as a scientific research assistant and fostering young
-            kids' interest in coding and game development. <br />
-            <br />i run my own tutoring business, where i’ve helped students
-            achieve academic success through personalized lessons. on campus,
-            i’m actively involved with the biotechnology and biomolecular
-            sciences society, organizing events like networking nights and
-            biotech startup site tours to connect students with industry
-            professionals. <br />
+            <br /> i'm a guy living in sydney, australia. apart from studying to be (hopefully) a software engineer, i have a passion for football and the ocean.<br />
+            <br />i play football for macquarie university and have supported barcelona all my life. <br />
             <br />
-            i’m passionate about problem-solving, collaboration, and
-            contributing to impactful projects.
+            i also love anything to do with the ocean, which includes fishing, snorkelling and diving. if you like fishing too you should check out my channel i have with my mates @AllTheGear_Fishing. I also recently received my open water diving certification and am looking for dive recommendations!
+            <br />
+            <br />
+            i'm also super lucky to have a great family and girlfriend that support me in everything i do. i also don't know how to write about me's without being a pretentious prick.
           </p>
-          <img src={dogicon} alt="Dog Icon" className="p-20"></img>
         </div>
       </div>
       <br />

@@ -42,7 +42,7 @@ const CodingSplash: React.FC = () => {
             onClick={() => scrollToSection("Projects")}
             className="button-personal"
           >
-            My Hobbies
+            My Photos
           </button>
           <button
             onClick={() =>

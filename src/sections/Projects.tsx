@@ -17,8 +17,8 @@ const Projects: React.FC = () => {
             </h3>
             <div className="h-0 group-hover:h-auto opacity-0 group-hover:opacity-100 overflow-hidden transition-all duration-300 ease-in-out">
               <p className="text-xs font-mono max-w-[160px] text-left">
-                This is the description of the project. Explore AI/ML
-                applications for football analysis.
+                Used YOLOv5 to detect players in a football video and then used
+                a custom model to predict game statistics.
                 <br />
                 <br />
                 <span className="font-bold inline-block">
@@ -39,7 +39,7 @@ const Projects: React.FC = () => {
             <div className="h-0 group-hover:h-auto opacity-0 group-hover:opacity-100 overflow-hidden transition-all duration-300 ease-in-out">
               <p className="text-xs font-mono max-w-[160px] text-left">
                 Build a robust platform for digital trade with a full-stack
-                solution.
+                solution, building and integrating APIs.
                 <br />
                 <br />
                 <span className="font-bold inline-block">
@@ -55,11 +55,12 @@ const Projects: React.FC = () => {
         >
           <div className="absolute inset-0 flex flex-col items-center justify-center p-4">
             <h3 className="font-bold font-mono text-xl group-hover:text-lg transition-all duration-300 ease-in-out mb-2">
-              Advanced Algorithm Visualizer
+              Portfolio Page
             </h3>
             <div className="h-0 group-hover:h-auto opacity-0 group-hover:opacity-100 overflow-hidden transition-all duration-300 ease-in-out">
               <p className="text-xs font-mono max-w-[160px] text-left">
-                Create engaging visualizations to demystify complex algorithms.
+                Used Vite, TailwindCSS and React to create the portfolio page
+                that you are viewing now!
                 <br />
                 <br />
                 <span className="font-bold inline-block">
@@ -75,11 +76,12 @@ const Projects: React.FC = () => {
         >
           <div className="absolute inset-0 flex flex-col items-center justify-center p-4">
             <h3 className="font-bold font-mono text-xl group-hover:text-lg transition-all duration-300 ease-in-out mb-2">
-              Interactive Learning Modules
+              AI-Assisted Mobile Todo App
             </h3>
             <div className="h-0 group-hover:h-auto opacity-0 group-hover:opacity-100 overflow-hidden transition-all duration-300 ease-in-out">
               <p className="text-xs font-mono max-w-[160px] text-left">
-                Develop tools for interactive and self-paced learning modules.
+                Used ElevenLabs API to generate voice assistance on top of a
+                mobile todo app using React Native.
                 <br />
                 <br />
                 <span className="font-bold inline-block">

@@ -14,8 +14,8 @@ const CodingSplash: React.FC = () => {
   }, []);
 
   return (
-    <div className="flex justify-center items-center h-screen px-4">
-      <div className="items w-full max-w-2xl">
+    <div className="flex justify-center items-center h-screen">
+      <div className="items">
         <div className="text-left">
           <h1 className="font-mono text-2xl md:text-3xl leading-12">
             Hi, I'm Aaron. I{" "}

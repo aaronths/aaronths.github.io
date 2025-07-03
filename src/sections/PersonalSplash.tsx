@@ -21,13 +21,19 @@ const CodingSplash: React.FC = () => {
     >
       <div className="items">
         <div className="text-left">
-          <h2 className="font-calligraphy text-7xl leading-15">Hi, I'm Aaron. I like</h2>
-          <h2 className="font-calligraphy line-through text-3xl leading-12">
+          <h2 className="font-playfair text-6xl leading-15">
+            Hi, I'm Aaron. I like
+          </h2>
+          <h2 className="font-playfair-italic line-through text-2xl leading-12">
             football
           </h2>
-          <h2 className="font-calligraphy line-through text-3xl leading-12">fishing</h2>
-          <h2 className="font-calligraphy line-through text-3xl leading-12">my dog</h2>
-          <h2 className="font-calligraphy text-3xl leading-12">
+          <h2 className="font-playfair-italic line-through text-2xl leading-12">
+            fishing
+          </h2>
+          <h2 className="font-playfair-italic line-through text-2xl leading-12">
+            my dog
+          </h2>
+          <h2 className="font-playfair text-2xl leading-12">
             a lot of things{showCursor && <span className="blink">|</span>}
           </h2>
         </div>

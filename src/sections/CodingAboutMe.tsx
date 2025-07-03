@@ -24,7 +24,9 @@ const AboutMe: React.FC = () => {
             i'm actively involved with the biotechnology and biomolecular
             sciences society, organizing events like networking nights and
             biotech startup site tours to connect students with industry
-            professionals. <br />
+            professionals. i'm also a part of unsw devsoc, where i make cool
+            projects with other student developers
+            <br />
             <br />
             i'm passionate about problem-solving, collaboration, and
             contributing to impactful projects.
